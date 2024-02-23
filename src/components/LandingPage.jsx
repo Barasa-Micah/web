@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import engineer from '../assets/engineer.jpg'
+import './LandingPage.css'
 
 const Landing = () => {
   const [showWelcome, setShowWelcome] = useState(false);
