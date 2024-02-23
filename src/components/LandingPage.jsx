@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import engineer from '../assets/engineer.jpg'
 
 const Landing = () => {
   const [showWelcome, setShowWelcome] = useState(false);
@@ -53,7 +54,7 @@ const Landing = () => {
         </div>
       </div>
       <div className="profile-image">
-        <img src="micah-profile.jpg" alt="Micah Barasa" />
+        <img src={engineer} alt="Micah Barasa" />
       </div>
     </div>
   );
